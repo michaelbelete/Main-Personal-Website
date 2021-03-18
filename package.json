@@ -9,8 +9,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "core-js": "^3.8.3",
-    "nuxt": "^2.14.12"
+    "jquery": "^3.6.0",
+    "nuxt": "^2.14.12",
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {}
 }

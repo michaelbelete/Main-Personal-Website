@@ -1,3 +1,5 @@
+const webpack = require("webpack");
+
 export default {
     // Target: https://go.nuxtjs.dev/config-target
     target: 'static',
@@ -19,12 +21,12 @@ export default {
         ],
         script: [{
                 type: 'text/javascript',
-                src: '~/assets/js/vendor/jquery-2.2.4.min.js',
+                src: '/assets/js/vendor/jquery-2.2.4.min.js',
                 body: true,
             },
             {
                 type: 'text/javascript',
-                src: '~/assets/js/vendor/bootstrap.min.js',
+                src: '/assets/js/vendor/bootstrap.min.js',
                 body: true,
             },
             {
@@ -36,27 +38,27 @@ export default {
             },
             {
                 type: 'text/javascript',
-                src: '~/assets/js/jquery.ajaxchimp.min.js',
+                src: '/assets/js/jquery.ajaxchimp.min.js',
                 body: true,
             },
             {
                 type: 'text/javascript',
-                src: '~/assets/js/owl.carousel.min.js',
+                src: '/assets/js/owl.carousel.min.js',
                 body: true,
             },
             {
                 type: 'text/javascript',
-                src: '~/assets/js/jquery.nice-select.min.js',
+                src: '/assets/js/jquery.nice-select.min.js',
                 body: true,
             },
             {
                 type: 'text/javascript',
-                src: '~/assets/js/jquery.magnific-popup.min.js',
+                src: '/assets/js/jquery.magnific-popup.min.js',
                 body: true,
             },
             {
                 type: 'text/javascript',
-                src: '~/assets/js/main.js',
+                src: '/assets/js/main.js',
                 body: true,
             }
         ],
@@ -87,5 +89,12 @@ export default {
     modules: [],
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
-    build: {}
+    build: {
+        vendor: ["jquery", "bootstrap"],
+        plugins: [
+            new webpack.ProvidePlugin({
+                $: "jquery"
+            })
+        ],
+    }
 }
