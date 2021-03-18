@@ -1,5 +1,12 @@
 [
   {
+    "name": "home",
+    "path": "/home",
+    "component": "/home/archmike/Documents/projects/Main-Personal-Website/pages/home.vue",
+    "chunkName": "pages/home",
+    "_name": "_c2929d3e"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/home/archmike/Documents/projects/Main-Personal-Website/pages/index.vue",
