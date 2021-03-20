@@ -1,5 +1,12 @@
 [
   {
+    "name": "blog",
+    "path": "/blog",
+    "component": "/home/archmike/Documents/projects/Main-Personal-Website/pages/blog.vue",
+    "chunkName": "pages/blog",
+    "_name": "_d77a5ab8"
+  },
+  {
     "name": "contact",
     "path": "/contact",
     "component": "/home/archmike/Documents/projects/Main-Personal-Website/pages/contact.vue",

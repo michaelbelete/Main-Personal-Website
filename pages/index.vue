@@ -252,6 +252,12 @@
           </div>
           
         </div>
+
+        <div class="row">
+          <div class="col-md-12 text-center p-4">
+            <NuxtLink to="/blog" class="primary-btn">Show More</NuxtLink>
+          </div>
+        </div>
       </div>
     </section>
 
