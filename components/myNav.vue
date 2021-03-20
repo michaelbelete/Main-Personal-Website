@@ -4,8 +4,8 @@
             <div class="container">
                 <div class="banner_content text-left">
                     <div class="page_link">
-                        <a href="index.html">Home</a>
-                        <a :href="link">{{ title }}</a>
+                        <nuxt-link to="/">Home</nuxt-link>
+                        <nuxt-link :to="link">{{ title }}</nuxt-link>
                     </div>
                     <h2>{{ title }}</h2>
                 </div>

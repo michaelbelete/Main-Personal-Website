@@ -22,6 +22,9 @@
         <li>
           <NuxtLink to="/contact">Contact</NuxtLink>
         </li>
+        <li>
+          <NuxtLink to="/blog">Blog</NuxtLink>
+        </li>
       </ul>
     </div>
     <div class="canvus_menu">
