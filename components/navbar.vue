@@ -2,26 +2,25 @@
   <div>
     <div class="side_menu">
       <div class="logo">
-        <a href="index.html">
-          <img src="assets/img/logo.png" height="200" />
-        </a>
+        <NuxtLink to="index.html">
+          <img src="~/assets/img/logo.png" height="140" class="nav-logo"/>
+        </NuxtLink>
       </div>
       <ul class="list menu-left">
         <li>
-          <a href="index.html">About</a>
+          <NuxtLink to="/">About</NuxtLink>
         </li>
         <li>
-          <a href="about-us.html">Experience</a>
-        </li>
-
-        <li>
-          <a href="service.html">Portfolio</a>
+          <NuxtLink to="/experiance">Experience</NuxtLink>
         </li>
         <li>
-          <a href="service.html">Skills</a>
+          <NuxtLink to="/portfolio">Portfolio</NuxtLink>
         </li>
         <li>
-          <a href="contact.html">Contact</a>
+          <NuxtLink to="/skills">Skills</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/contact">Contact</NuxtLink>
         </li>
       </ul>
     </div>
@@ -34,3 +33,8 @@
     </div>
   </div>
 </template>
+<style scoped>
+.nav-logo {
+  margin-left: 35px;
+}
+</style>

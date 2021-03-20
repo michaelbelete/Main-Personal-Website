@@ -87,7 +87,7 @@ $(function() {
         loop: true,
         margin: 30,
         nav: true,
-        navText: ["<img src='assets/img/prev.png'>", "<img src='assets/img/next.png'>"],
+        navText: ["<img src='~/assets/img/prev.png'>", "<img src='~/assets/img/next.png'>"],
         dots: false,
         responsive: {
             0: {
@@ -121,7 +121,7 @@ $(function() {
         loop: true,
         dots: false,
         nav: true,
-        navText: ["<img src='img/prev.png'>", "<img src='img/next.png'>"]
+        navText: ["<img src='~/assets/img/prev.png'>", "<img src='~/assets/img/next.png'>"]
     });
 
     /*----------------------------------------------------*/
@@ -133,7 +133,7 @@ $(function() {
         loop: true,
         dots: false,
         nav: true,
-        navText: ["<img src='img/prev.png'>", "<img src='img/next.png'>"]
+        navText: ["<img src='~/assets/img/prev.png'>", "<img src='~/assets/img/next.png'>"]
     });
 
     // $(document).ready(function() {

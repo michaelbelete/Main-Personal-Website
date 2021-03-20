@@ -1,6 +1,9 @@
 {
-  "Logo": {
-    "description": "Auto imported from components/Logo.vue"
+  "Footer": {
+    "description": "Auto imported from components/footer.vue"
+  },
+  "MyNav": {
+    "description": "Auto imported from components/myNav.vue"
   },
   "Navbar": {
     "description": "Auto imported from components/navbar.vue"

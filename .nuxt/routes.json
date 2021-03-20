@@ -1,10 +1,24 @@
 [
   {
-    "name": "home",
-    "path": "/home",
-    "component": "/home/archmike/Documents/projects/Main-Personal-Website/pages/home.vue",
-    "chunkName": "pages/home",
-    "_name": "_c2929d3e"
+    "name": "contact",
+    "path": "/contact",
+    "component": "/home/archmike/Documents/projects/Main-Personal-Website/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_4d1275e4"
+  },
+  {
+    "name": "experiance",
+    "path": "/experiance",
+    "component": "/home/archmike/Documents/projects/Main-Personal-Website/pages/experiance.vue",
+    "chunkName": "pages/experiance",
+    "_name": "_159fed70"
+  },
+  {
+    "name": "portfolio",
+    "path": "/portfolio",
+    "component": "/home/archmike/Documents/projects/Main-Personal-Website/pages/portfolio.vue",
+    "chunkName": "pages/portfolio",
+    "_name": "_47f194b6"
   },
   {
     "name": "index",
@@ -12,5 +26,12 @@
     "component": "/home/archmike/Documents/projects/Main-Personal-Website/pages/index.vue",
     "chunkName": "pages/index",
     "_name": "_e7468380"
+  },
+  {
+    "name": "*",
+    "path": "/*",
+    "component": "/home/archmike/Documents/projects/Main-Personal-Website/pages/*.vue",
+    "chunkName": "pages/*",
+    "_name": "_11998498"
   }
 ]

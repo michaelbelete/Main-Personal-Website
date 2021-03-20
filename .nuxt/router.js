@@ -4,8 +4,11 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _c2929d3e = () => interopDefault(import('../pages/home.vue' /* webpackChunkName: "pages/home" */))
+const _4d1275e4 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
+const _159fed70 = () => interopDefault(import('../pages/experiance.vue' /* webpackChunkName: "pages/experiance" */))
+const _47f194b6 = () => interopDefault(import('../pages/portfolio.vue' /* webpackChunkName: "pages/portfolio" */))
 const _e7468380 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _11998498 = () => interopDefault(import('../pages/*.vue' /* webpackChunkName: "pages/*" */))
 
 const emptyFn = () => {}
 
@@ -19,13 +22,25 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/home",
-    component: _c2929d3e,
-    name: "home"
+    path: "/contact",
+    component: _4d1275e4,
+    name: "contact"
+  }, {
+    path: "/experiance",
+    component: _159fed70,
+    name: "experiance"
+  }, {
+    path: "/portfolio",
+    component: _47f194b6,
+    name: "portfolio"
   }, {
     path: "/",
     component: _e7468380,
     name: "index"
+  }, {
+    path: "/*",
+    component: _11998498,
+    name: "*"
   }],
 
   fallback: false
