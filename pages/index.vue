@@ -200,7 +200,57 @@
               >Email Me</a
             >
           </div>
-          <img src="~/assets/img/cta-bg-shape.png" alt="" class="cta-shape img-fluid" />
+          <img
+            src="~/assets/img/cta-bg-shape.png"
+            alt=""
+            class="cta-shape img-fluid"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="service-area section-gap">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9 text-center">
+            <div class="section-title">
+              <h1>Recent <span>Portfolio</span> Showcase</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <input type="search" class="form-control" placeholder="search for project">
+                <div class="py-4 text-center">
+                    <button class="genric-btn info-border circle small active">Websites</button>
+                    <button class="genric-btn primary-border circle small">Mobile Apps</button>
+                    <button class="genric-btn success-border circle small">UI/UX Designs</button>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row">
+          <!-- single-features -->
+          <div class="col-lg-4 col-sm-6 col-md-6">
+            <div class="single-gallery">
+              <img class="img-fluid" src="~/assets/img/project/gallery1.jpg" alt="" />
+              <div class="gallery-content">
+                <p>Proper Guided Tour</p>
+                <h4>
+                  Santorini Island Dream <br />
+                  Holiday and Fun <br />
+                  Package
+                </h4>
+              </div>
+              <div class="light-box">
+                <a href="~/assets/img/project/gallery1.jpg" class="img-popup">
+                  <span class="lnr lnr-link"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
     </section>
@@ -223,62 +273,6 @@
                 <img
                   class="img-fluid"
                   src="~/assets/img/blog/h-blog1.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="blog-details">
-                <div class="blog-meta">
-                  <span>25 june, 2018 | By Mark Wiens</span>
-                </div>
-                <h5>
-                  <NuxtLink to="#"
-                    >Addiction When Gambling <br />
-                    Becomes A Problem</NuxtLink
-                  >
-                </h5>
-                <p>
-                  Computers have become ubiquitous in almost every facet of our
-                  lives. At work, desk jockeys spend hours in front of their
-                  desktops.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- single-blog -->
-          <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="single-blog">
-              <div class="blog-thumb">
-                <img
-                  class="img-fluid"
-                  src="~/assets/img/blog/h-blog2.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="blog-details">
-                <div class="blog-meta">
-                  <span>25 june, 2018 | By Mark Wiens</span>
-                </div>
-                <h5>
-                  <NuxtLink to="#"
-                    >Addiction When Gambling <br />
-                    Becomes A Problem</NuxtLink
-                  >
-                </h5>
-                <p>
-                  Computers have become ubiquitous in almost every facet of our
-                  lives. At work, desk jockeys spend hours in front of their
-                  desktops.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- single-blog -->
-          <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="single-blog">
-              <div class="blog-thumb">
-                <img
-                  class="img-fluid"
-                  src="~/assets/img/blog/h-blog3.jpg"
                   alt=""
                 />
               </div>
