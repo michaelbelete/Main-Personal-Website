@@ -70,7 +70,8 @@
               <div class="service-content">
                 <h4>Website Design and Development</h4>
                 <p>
-                  I like to develop high quality websites with suprior design , and enjoy bringing ideas to life in the browser.
+                  I like to develop high quality websites with suprior design ,
+                  and enjoy bringing ideas to life in the browser.
                 </p>
               </div>
             </div>
@@ -94,7 +95,8 @@
               <div class="service-content">
                 <h4>Mobile App Design and Development</h4>
                 <p>
-                  I develop easy-to-use and maintainable mobile apps with kotlin and flutter. don't believe me!! check out my portfolio
+                  I develop easy-to-use and maintainable mobile apps with kotlin
+                  and flutter. don't believe me!! check out my portfolio
                 </p>
               </div>
             </div>
@@ -118,7 +120,8 @@
               <div class="service-content">
                 <h4>It Consultant and Project Management</h4>
                 <p>
-                  I genuinely care about projects, and love helping fellow developers and designers work on their craft.
+                  I genuinely care about projects, and love helping fellow
+                  developers and designers work on their craft.
                 </p>
               </div>
             </div>
@@ -140,12 +143,20 @@
               </div>
               <div class="m-social">
                 <div class="t-icons">
-                  <a href="https://www.instagram.com/archmike12/"><i class="fa fa-instagram"></i></a>
-                  <a href="https://twitter.com/michaelbelete16"><i class="fa fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/archmike12/"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                  <a href="https://twitter.com/michaelbelete16"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
                 </div>
                 <div class="b-icons">
-                  <a href="https://github.com/michaelbelete"><i class="fa fa-github"></i></a>
-                  <a href="https://t.me/archmike12"><i class="fa fa-telegram"></i></a>
+                  <a href="https://github.com/michaelbelete"
+                    ><i class="fa fa-github"></i
+                  ></a>
+                  <a href="https://t.me/archmike12"
+                    ><i class="fa fa-telegram"></i
+                  ></a>
                 </div>
               </div>
             </div>
@@ -154,14 +165,14 @@
         <div class="col-lg-5 offset-lg-1 col-md-6 team-right">
           <h1>Bio</h1>
           <p class="text-justify">
-            Knowledgeable Web Developer brings superior front- and back-end
-            design to promote organization-specific website presence. Thorough
-            comprehension of complex HTML, CSS and JavaScript programming
-            languages to generate custom web page design. Extensive
-            collaboration with Any Client to ascertain company expectations and
-            oversee site creation, from initial planning through rollout and
-            support.Detail-oriented approach to maintaining website
-            responsiveness,effectiveness and security.
+            I'm a Knowledgeable Web Developer that brings superior front- and
+            back-end design to promote organization-specific website presence
+            thorough comprehension of complex programming languages to generate
+            custom web and mobile apps. Extensive collaboration with Any Client
+            to ascertain company expectations and oversee site creation, from
+            initial planning through rollout and support.Detail-oriented
+            approach to maintaining website responsiveness, effectiveness, and
+            security.
           </p>
           <NuxtLink class="primary-btn" to="/experiance"
             >View Experience</NuxtLink
@@ -183,11 +194,13 @@
               buy the coffee.
             </p>
             <NuxtLink to="/contact" class="primary-btn">Contact Me</NuxtLink>
-            <a to="mailto:it.michael.belete@gmail.com" class="primary-btn ml-3"
+            <a
+              href="mailto:it.michael.belete@gmail.com"
+              class="primary-btn ml-3"
               >Email Me</a
             >
           </div>
-          <img src="img/cta-bg-shape.png" alt="" class="cta-shape img-fluid" />
+          <img src="~/assets/img/cta-bg-shape.png" alt="" class="cta-shape img-fluid" />
         </div>
       </div>
     </section>
